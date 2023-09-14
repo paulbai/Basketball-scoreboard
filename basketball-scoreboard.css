@@ -1,27 +1,31 @@
 body {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 400px;
-    height: 400px;
     background-image: url(cover2.jpg);
+    background-size: cover;
     border-radius: 20px;
     border: 8px solid white;
     box-shadow: 0 0 13px black;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;   
+}
+
+.inner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
 }
 
 h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 60px;
     color: white;
     text-transform: uppercase;
 }
@@ -32,12 +36,12 @@ h1 {
 
 .displayScore {
     font-family:'Cursed Timer ULiL', sans-serif;
-    width: 150px;
-    height: 120px;
+    width: 250px;
+    height: 200px;
     color: #b71b38;
     background-color: #080001;
     font-weight: 400;
-    font-size: 90px;
+    font-size: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,7 +54,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 10px;
+    column-gap: 20px;
     color: #9aabd8;
 }
 
@@ -68,3 +72,7 @@ button:hover {
     color: black;
 }
 
+.reset-button {
+    font-size: 30px;
+    margin-top: 30px;
+}
