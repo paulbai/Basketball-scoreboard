@@ -1,0 +1,70 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    height: 400px;
+    background-image: url(cover2.jpg);
+    border-radius: 20px;
+    border: 8px solid white;
+    box-shadow: 0 0 13px black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.home, .guest {
+    margin: 20px 10px;
+}
+
+.displayScore {
+    font-family:'Cursed Timer ULiL', sans-serif;
+    width: 150px;
+    height: 120px;
+    color: #b71b38;
+    background-color: #080001;
+    font-weight: 400;
+    font-size: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 26px;
+    border-radius: 25px;
+    padding: 10px;    
+}
+
+.points-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    color: #9aabd8;
+}
+
+button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #16d8a4;
+    border: 2px solid #0884b5;
+    background-color: #1b244a;
+    padding: 10px 10px;
+    border-radius: 5px;   
+}
+
+button:hover {
+    background-color: #ccd3f4b7;
+    color: black;
+}
+
